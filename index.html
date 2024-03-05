@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Date of birth</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <input type="text" id="Inputdate" name="birthday" placeholder="DD/MM/YY" maxlength="10">
+            <h4>Enter your OTP</h4>
+            <form action="">
+                <div id="otp-input" class="main-cont Otp">
+                    <input type="number" class="ip" step="1" max="1" autocomplete="no" id="1">
+                    <input type="number" class="ip" step="1" max="1" autocomplete="no" id="2">
+                    <input type="number" class="ip" step="1" max="1" autocomplete="no" id="3">
+                    <input type="number" class="ip" step="1" max="1" autocomplete="no" id="4">
+                    <input type="submit" onclick="GetOtp()" value="GET OTP">
+                </div>
+                <button onclick="submit()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
